@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Sarter Page - eNno Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/prismaIco.ico" rel="icon">
+  <link href="assets/img/prismaIco.ico" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="sarter-page-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">PRISMA</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="#">INICIAR</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Responde con sinceridad las siguientes preguntas</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li class="current">Test</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Primera Fase</h2>
+
+        <p>Este es un sencillo test que nos ayudará a generar una experiencia más perzonalizada para ti</p>
+      </div><!-- End Section Title -->
+
+      <div class="col-lg-11" style="margin: 15px;">
+        <form id="test_preguntas" class="php-email-form" data-aos="fade-up" data-aos-delay="400" autocomplete="off">
+          <div class="row gy-4">
+
+            <div class="col-md-6 py-4">
+              <label for="name-field" class="pb-2">Nombre completo</label>
+              <input type="text" name="name" id="name-field" class="form-control" required minlength="3" maxlength="60">
+            </div>
+
+            <!-- AQUI ESTAAAAA -->
+            <div class="col-md-6" id="box-grados">
+            </div>
+
+            <div class="col-md-12" id="box-preguntas">
+            </div>
+            
+            <div class="col-md-12" id="box-extra">
+              <label for="extra" class="pb-2">Puedes dejar aquí un comentario extra:</label>
+              <textarea name="extra" id="extra" class="form-control" maxlength="150"></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <div class="loading">Cargando</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Tu mensaje ha sido enviado, Gracias!!!</div>
+
+              <button form="test_preguntas" id="sendTest" type="submit">Send Message</button>
+            </div>
+
+          </div>
+        </form>
+      </div><!-- End Contact Form -->
+    </section><!-- /Contact Section -->
+
+    
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">PRISMA</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Lib. Nte. Ote. s/n. Col.Paso Limón.</p>
+            <p>Tuxtla Gutiérrez, Chiapas.</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+52 961 - 614 - 0339</span></p>
+            <p><strong>Email:</strong> <span>contacto@cetis138.edu.mx</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">PRISMA</strong> <span>Todos los derechos reservados</span></p>
+      <div class="credits">Desarrollado por Javier y Alex</div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    const APIROOT = 'https://prismaapi-zqbr.onrender.com/'
+    const classActive = 'dropdown-active';
+    const classInactive = 'dropdown-inactive';
+
+    const mostrarOpciones = (ulId, active) => {
+      const ulElement = document.getElementById(ulId);
+      if (active) {
+        ulElement.classList.remove(classActive);
+        ulElement.classList.add(classInactive);
+      } else {
+        ulElement.classList.remove(classInactive);
+        ulElement.classList.add(classActive);
+      }
+    }
+    const generarOpciones = (idParent, idSpan ,opciones, idDropDown) => {  
+      const ulList = document.getElementById(idParent);
+      const grupoLi = document.createDocumentFragment();
+      const span = document.getElementById(idSpan);
+
+      opciones.forEach(opcion => {
+        const li = document.createElement('li');
+        li.textContent = opcion.opcion;
+        li.id = "li_"+opcion.id+idDropDown;
+        li.setAttribute('data-value-li', opcion.valor);
+        li.addEventListener('click', () => {
+          span.textContent = opcion.opcion;
+          span.dataset.value = opcion.valor; // Esto actualiza el atributo data-value
+          mostrarOpciones(idParent, true);
+        });
+        grupoLi.appendChild(li);
+      });
+
+      ulList.appendChild(grupoLi);
+    }
+    const generarDropDown = (idParent, idDropDown, spanText, opciones) => {
+      const idSpan = 'span_' + idDropDown;
+      const idUl = 'ul_' + idDropDown;
+      const idContenedor = 'dropDown_' + idDropDown;
+      // una MousekeHerramienta que nos ayudará más tarde para el DropDown
+      let isFirstClick = true;
+      let isActive = false; // Estado del dropdown
+
+      const dropDown = `
+      <span class="pb-2" style="display: inline-block;">${spanText}</span>
+      <div class="form-control">
+        <div class="box-span-opcion py-1 px-4">
+          <span id="${idSpan}" data-value-span="0">Selecciona una opción</span>
+          <i class="bi bi-chevron-down toggle-dropdown"></i>
+        </div>
+        <ul class="ul-dropDown" id="${idUl}"></ul>
+      </div>
+      `;
+
+      const elementParent = document.getElementById(idParent);
+      const contenedor = document.createElement('div');
+      contenedor.classList.add('py-4','dropDown');
+      contenedor.id = idContenedor;
+      contenedor.innerHTML = dropDown;
+      contenedor.addEventListener('click', () => {
+        if (isFirstClick) {
+          mostrarOpciones(idUl, false);
+          isFirstClick = false; // Después de la primera vez, cambia el estado
+        } else {
+          isActive = !isActive; // Alterna entre true y false
+          mostrarOpciones(idUl, isActive);
+        }
+      });
+
+      if (document.getElementById(idUl)) {
+        generarOpciones(idUl,idSpan,opciones, idDropDown);
+      } else {
+        setTimeout(() => {
+          generarOpciones(idUl,idSpan,opciones, idDropDown);
+        },1000);
+      }
+      elementParent.appendChild(contenedor);
+    }
+
+    const pedirGrados = async () => {
+      const pedido = await fetch(`${APIROOT}test/grados/`);
+      const grados = await pedido.json()
+      return grados;
+    }
+    const pedirPreguntas = async () => {
+      const pedido = await fetch(`${APIROOT}test/preguntas/`);
+      const preguntas  = await pedido.json();
+      return preguntas;
+    }
+    const pedirOpciones = async () => {
+      const pedido = await fetch(`${APIROOT}test/escalaValoracion/`);
+      const opciones = pedido.json();
+      return opciones;
+    }
+
+    const montarDropGrados = async () => {
+      const data = await pedirGrados();
+      let grados = data.map(grado => ({
+        "id": grado.id_grado,
+        "opcion": grado.grado,
+        "valor": grado.id_grado
+      }));
+
+      generarDropDown('box-grados','grados','Selecciona tu grado actual', grados);
+    }
+    const montarDropsPreguntas = async () => {
+      const dataOpciones = await pedirOpciones();
+      const dataPreguntas = await pedirPreguntas();
+      let opciones = [];
+      let j = 0;
+
+      for (let i = 0; i < dataOpciones.length; i++) {
+        opciones[i] = dataOpciones[i].map(opcion => ({
+          "id": opcion.id_escala_valoracion,
+          "opcion": opcion.escala_valoracion,
+          "valor": opcion.valor,
+          "dimension": opcion.id_dimension
+        }));
+      }
+
+      dataPreguntas.forEach(pregunta  => {
+        if (opciones[j][0].dimension != pregunta.id_dimension) j++;
+        const idDropDown = "pregunta_"+pregunta.id_pregunta;
+        generarDropDown('box-preguntas',idDropDown,pregunta.pregunta,opciones[j]);
+      });
+    }
+    const montarDropDowns = () => {
+      montarDropGrados();
+      montarDropsPreguntas();
+    }
+
+    const iniciar = async () => {
+      await montarDropDowns(); 
+    }
+    iniciar();
+  </script>
+
+  <script>
+  
+  const loadingDiv = document.querySelector(".loading");
+  const errorDiv = document.querySelector(".error-message");
+  const successDiv = document.querySelector(".sent-message");
+
+  const button = document.getElementById("sendTest")
+  button.addEventListener("click", async (e) => {
+    console.log("boton");
+    
+    button.disabled = true;
+    e.preventDefault();
+
+    const validar = (data) => {
+      const badWords = [
+  "cabrón", "pendejo", "gilipollas", "estúpido", "imbécil", "idiota", "huevón", 
+  "baboso", "tarado", "sopenco", "zopenco", "zoquete", "boludo", "chinga", "chingada", 
+  "jodido", "joder", "coño", "carajo", "mierda", "cagada", "cagón", "mamón", "puto", 
+  "puta", "marica", "maricón", "ojete", "culero", "verga", "vergazo", "verguita", "pija", 
+  "pito", "forro", "culiado", "culiao", "pichón", "naco", "choto", "pedorro", "moco", 
+  "mocoso", "pelotudo", "chiflado", "menso", "tarugo", "baboso", "hocicón", "cagón",
+  "fuck", "shit", "asshole", "bastard", "bitch", "prick", "cunt", "damn", "douche", "wanker",
+  "mama", "mamá", "papá"
+];
+
+      const regex = new RegExp(`\\b(${badWords.join('|')})\\b`, 'i');
+      if (regex.test(data.nombre) || regex.test(data.extra)) {
+        alert('No se permiten palabras ofensivas');
+        return false;
+      }
+      if (data.nombre.length < 4 || data.nombre.length > 60) { return false }
+      if (data.grado < 1 || data.grado > 6) { return false }
+      if (data.puntos < 18 || data.puntos > 90) { return false }
+      if (data.extra > 150) { return false }
+
+      return true;
+    }
+    
+    try {
+    // Limpia los mensajes anteriores
+    loadingDiv.style.display = "none";
+    errorDiv.style.display = "none";
+    successDiv.style.display = "none";
+
+    const form = document.getElementById("test_preguntas");
+    const nombre = form.querySelector("#name-field");
+    const extra = form.querySelector("#extra");
+    const spans = form.querySelectorAll("[data-value-span]");
+
+    let totalPuntos = 0;
+    for (const span of spans) {
+      const value = parseInt(span.dataset.value, 10);
+      console.log(value);
+      
+      if (isNaN(value) || value < 0 || value > 7) {
+        errorDiv.style.display = "block";
+        errorDiv.textContent = "Error: debes contestar todas las preguntas" ;
+        throw new Error("Valor fuera de rango o no es un número válido");
+      }
+      totalPuntos += value;
+    }
+    console.log(totalPuntos);
+    const values = Array.from(spans).map(span => span.dataset.value); 
+
+    const spanGrados = document.getElementById("span_grados");
+    const dataValueGrados = parseInt(spanGrados.dataset.value);
+    totalPuntos -= dataValueGrados;
+    
+    const dataTest = {
+      "nombre": nombre.value,
+      "grado": dataValueGrados,
+      "puntos": totalPuntos,
+      "extra": extra.value || ''
+    }
+    console.log(dataTest);
+    if (validar(dataTest)) {
+      const data = await fetch(`${APIROOT}test/guardarTest/`,{
+      method: 'POST',
+      headers: {
+      'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(dataTest)
+      });
+      const response = await data.json();
+      console.log(response);
+      if (response.id_alumno) {
+        successDiv.style.display = "block";
+        successDiv.textContent = `Respuesta guardada.\n Evaluacion: ${response.evaluacion}` || 'Respuesta guardada.';
+      }
+    } else {
+      errorDiv.style.display = "block";
+      errorDiv.textContent = "No se pudo procesar la solicitud.";
+    }
+      
+    } catch (error) {
+      errorDiv.style.display = "block";
+      errorDiv.textContent = `Error: ${error.mensaje || "No se pudo procesar la solicitud."}`;
+      
+      button.disabled = false;
+      console.error(error);
+      
+    }
+  }); 
+  </script>
+</body>
+</html>
